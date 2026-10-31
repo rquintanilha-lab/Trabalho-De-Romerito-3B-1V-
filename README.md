@@ -21,6 +21,8 @@ a Ideia do site foi pensada pra ser uma livraria/biblioteca que armazena livros 
 - Rodrigo Quintanilha 3: galeria.html
 - Douglas 4: curiosidades.html
 - Rodrigo/Linconl 5: contatos.html
+- Linconl/Rodrigo 6: style.css
+- Rodrigo 7: app.js
 ## Uso do Flexbox
 O Body: foi utilizado display: flex, Flex direction: column
 O header: foi utilizado display: flex, justify-content:, space-between, align-items center, flex wrap: wrap, gap
