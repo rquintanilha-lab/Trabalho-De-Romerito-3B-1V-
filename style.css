@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5ede2;
+    color: #352219;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h2,h3 {
+    font-family: Georgia, serif;
+    color: #633c27;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 25px 8%;
+    background-color: #2b1710;
+    color: #f5ede2;
+}
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+nav a {
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #f5ede2;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+nav a:hover,
+nav a[aria-current="page"] {
+    background-color: #69412d;
+}
+
+nav a:focus-visible {
+    outline: 2px solid #edc79a;
+    outline-offset: 3px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+main p {
+    margin-bottom: 12px;
+    overflow-wrap: anywhere
+}
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    padding: 35px;
+    background-color: #fffaf3;
+    border: 1px solid #e3d4c3;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px #2b171014;
+}
+.contatos section {
+    flex: 1;
+    min-width: 0;
+}
+.contatos .foto {
+    flex: 0 1 400px;
+}
+.foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.livro {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 20px;
+    background-color: #fffaf3;
+    border: 1px solid #e3d4c3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #2b171014;
+}
+.livro img {
+    width: 120px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+.livro div {
+    flex: 1;
+    min-width: 0;
+}
+.livro h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.livro p {
+    margin-bottom: 8px;
+}
+footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #2b1710;
+    color: #f5ede2;
+    text-align: center;
+}
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    main {
+        margin: 25px auto;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    .contatos {
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+    }
+
+    .contatos section {
+        width: 100%;
+    }
+
+    .contatos .foto {
+        flex: auto;
+    }
+}
+@media (max-width: 500px) {
+    .livro {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .livro img {
+        width: 85px;
+    }
+
+    .livro h3 {
+        font-size: 19px;
+    }
+}
