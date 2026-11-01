@@ -17,9 +17,9 @@ a Ideia do site foi pensada pra ser uma livraria/biblioteca que armazena livros 
 - contatos.html: meio de comunição com a devs library
 ## Divisão de tarefas
 - Linconl Yure 1: index.html
-- Ari neto 2: sobre.html
+- Douglas 2: sobre.html
 - Rodrigo Quintanilha 3: galeria.html
-- Douglas 4: curiosidades.html
+- Ari Neto 4: curiosidades.html
 - Rodrigo/Linconl 5: contatos.html
 - Linconl/Rodrigo 6: style.css
 - Rodrigo 7: app.js
